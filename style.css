@@ -1,0 +1,113 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:white;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin:0 auto;
+
+
+}
+.container{
+    background-color: white;
+    display: flex;
+    margin:0 auto;
+    width: 80%;
+    gap:5px;
+
+}
+
+.space{
+    height: 50px;
+    width: 80%;
+    align-items: center;
+    /* background-color: bisque; */
+    /* font-weight: bold; */
+    font-size: larger;
+    /* display:flex; */
+    /* flex:1 */
+    /* treid all these fxn to move the black space */
+    margin: 0 auto;
+    text-align: center; 
+    margin-top: 20px;   
+    
+}
+
+.colA{
+flex:1; 
+background-color: white;
+align-items: center;
+
+}
+
+.box1{
+display: flex;
+flex-direction: column;
+border: solid black 3px;
+align-items: center;
+padding: 10px;
+gap:20px;
+}
+
+#avatar-image{
+    border-radius: 50%;
+    
+
+}
+
+#name{
+    
+
+}
+.colB{
+    flex:3;
+   
+}
+
+.user-card{
+    border: solid black 3px;
+    padding: 15px;
+    margin-bottom: 5px;
+
+}
+.user-info{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom:15px;
+    justify-content: space-between;
+
+}
+.likes{
+    display:flex;
+    gap:10px;
+}
+/* all like-button affected how???*/
+.like-button{
+    border:solid black 2px;
+    box-shadow: 2px 2px 2px rgb(26, 25, 25);
+    background-color:rgb(218, 175, 33);
+}
+
+.box2{
+    background-color: rgb(153, 89, 12);
+    border: solid black 3px;
+
+}
+
+/* do not need extra box b/c of paste in html */
+/* .box3{
+    border:solid black 3px;
+
+
+}
+
+.box3 */
